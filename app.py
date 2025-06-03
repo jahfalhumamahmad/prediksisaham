@@ -68,7 +68,7 @@ if halaman == "beranda":
         )
         st.write('''Website ini dikembangkan oleh Jahfal Humam Ahmad, mahasiswa Sistem Informasi Universitas Bina Sarana Informatika, yang bertujuan untuk mengimplementasikan dalam dunia nyata model yang telah dilatih pada penelitian "Prediksi Harga Saham Tiga Emiten di BEI dengan Kepemilikan Efek Ekuitas Terbanyak Investor Ritel Domestik Menggunakan LSTM" yang memprediksi harga saham PT Barito Pacific Tbk (BRPT), PT Bumi Resources Tbk (BUMI), dan PT Elang Mahkota Teknologi Tbk (EMTK) menggunakan model Long Short-Term Memory (LSTM) periode 6 Mei 2025 hingga 5 Mei 2026.''')
         st.write("Fitur Utama:  \n1.\nHasil prediksi harga saham berupa grafik dan tabel.  \n2.\nInformasi terkait prediksi harga saham tertinggi dan terendah selama periode prediksi.  \n3.\nOpsi untuk menampilkan hasil prediksi menggunakan data historis terbaru.")
-        st.write("Library yang digunakan:  \n1.\nStreamlit  \n2.\nYfinance  \n3.\nNumPy  \n4.\nPandas  \n5.\nScikit-learn  \n6.\nKeras  \n7.\nPlotly")
+        st.write("Library yang digunakan:  \n1.\nStreamlit  \n2.\nYfinance  \n3.\nNumPy  \n4.\nPandas  \n5.\nScikit-learn  \n6.\nTensorFlow  \n7.\nPlotly")
     with st.expander("**Cara Penggunaan**"):
         st.markdown(
             "<hr style='border:1px solid #ccc; margin: 0; padding: 0; width: 100%;'>",
